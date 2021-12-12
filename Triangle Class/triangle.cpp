@@ -9,7 +9,7 @@ Triangle::Triangle(int s, char b, char f)
 /*Triangle constructor that guarantees valid triangle side length and presents
 a default character for triangle's border and fill features*/
 {
-	if(s > 0 & s < 40)
+	if(s > 0 && s < 40)
 		sideLength = s;
 	//error checking side lengths to fit parameters
 	else if(s <= 0)
@@ -18,13 +18,13 @@ a default character for triangle's border and fill features*/
 		sideLength = 39;
 
 	//error checking border for appropriate ASCII values
-	if(b >= 33 & b <= 126)
+	if(b >= 33 && b <= 126)
 		border = b;
 	else
 		border = '#';
 
 	 //error checking fill for appropriate ASCII values
-	 if(f >= 33 & f <= 126)
+	 if(f >= 33 && f <= 126)
  		fill = f;
  	else
  		fill = '*';
@@ -73,7 +73,7 @@ void Triangle::SetBorder(char newBorder)
 /*changes the border character of triangle as long as it is within valid
 ASCII parameters*/
 {
-	if(newBorder >= 33 & newBorder <= 126)
+	if(newBorder >= 33 && newBorder <= 126)
 		border = newBorder;
 	else
 		border = '#';
@@ -83,7 +83,7 @@ void Triangle::SetFill(char newFill)
 /*changes the fill character of triangle as long as it is within valid
 ASCII parameters*/
 {
-	if(newFill >= 33 & newFill <= 126)
+	if(newFill >= 33 && newFill <= 126)
 		fill = newFill;
 	else
 		fill = '*';
