@@ -136,34 +136,5 @@ picture of what it looks like*/
 	cout << "Perimeter of triangle = " << perimeter << " units.\n";
 	cout << "Area of triangle = " << area << " units.\n";
 	cout << "Triangle looks like: \n";
-
-	//Draw Triangle
-	for (int i = 1; i < sideLength; i++)
-    {
-        for (int j = i; j < sideLength; j++)
-        {
-            cout << ' ';
-        }
-
-        cout << border << ' ';
-
-        for (int k = sideLength; k > sideLength-i+2; k--)
-        {
-            cout << fill << ' ';
-        }
-        if(i == 1)
-            cout << "";
-        else
-            cout << border;
-
-        cout << '\n';
-    }
-
-    for (int i = 1; i <= sideLength; i++)
-    {
-        if(i < sideLength)
-            cout << border << ' ';
-        else
-            cout << border << '\n';
-    } //END of drawing triangle
+	Draw();
 }
