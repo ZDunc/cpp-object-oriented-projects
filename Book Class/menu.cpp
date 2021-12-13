@@ -20,7 +20,7 @@ int main()
 
 	cout << "\n\n";
 	Store BooksForYou(initial);
-        char choice;
+  char choice;
 
 	BooksForYou.PrintMenu();
 
