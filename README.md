@@ -15,3 +15,11 @@ Compilation of Project Code for Object-Oriented Programming (C++)
 ### (class) Mixed stores and manages rational numbers in a mixed number format (integer part and a fraction part).
 - mixed.h
 - mixed.cpp
+
+## (3) Book Class - "Has-a Relationship"
+### (class) Book represents a book object manipulated within (class) Store, an object representing a bookstore inventory. Store objects can add books to the inventory, sells books, grow or shrink the inventory capacity, print the full inventory, prints the inventory by genre, searches for books by title, and tracks a monetary balance of the store register. Menu.cpp provides a menu for "Bookstore Inventory Manager," which initializes a new store object and allows a user to modify it until program exit.
+- book.h
+- book.cpp
+- store.h
+- store.cpp
+- menu.cpp
