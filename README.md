@@ -16,10 +16,15 @@ Compilation of Project Code for Object-Oriented Programming (C++)
 - mixed.h
 - mixed.cpp
 
-## (3) Book Class - "Has-a Relationship"
+## (4) Book Class - "Has-a Relationship"
 ### (class) Book represents a book object manipulated within (class) Store, an object representing a bookstore inventory. Store objects can add books to the inventory, sells books, grow or shrink the inventory capacity, print the full inventory, prints the inventory by genre, searches for books by title, and tracks a monetary balance of the store register. Menu.cpp provides a menu for "Bookstore Inventory Manager," which initializes a new store object and allows a user to modify it until program exit.
 - book.h
 - book.cpp
 - store.h
 - store.cpp
 - menu.cpp
+
+## (5) Building a larger integer class - More Operator Overloading & Managing Dynamic Memory Allocation Inside a Class
+### (class) MyInt allows storage of any non-negative integer (theoretically without an upper limit -- although there naturally is an eventual limit to storage in a program). MyInt consists of necessary operator overloads, so that objects of type MyInt will act like regular integers, to some extent. This program requires dynamic memory allocation.
+- myint.h
+- myint.cpp
