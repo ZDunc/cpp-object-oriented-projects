@@ -19,8 +19,13 @@ StudentList::StudentList()
 //Destructor
 StudentList::~StudentList()
 {
-    if (current > 0)
-        delete [] list;
+  if (list != 0)
+ {
+   for (int i = 0; i < size; i++)
+      delete list[i];      // clean up objects
+
+   delete [] list;         // clean up array
+ }
 }
 
 bool StudentList::ImportFile(const char* filename)
