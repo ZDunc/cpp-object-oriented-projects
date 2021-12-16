@@ -36,5 +36,5 @@ Compilation of Project Code for Object-Oriented Programming (C++)
 - student.cpp
 - studentlist.cpp
 - main.cpp
-- text1.txt
-- text2.txt
+- studentsample1.txt
+- studentsample2.txt
