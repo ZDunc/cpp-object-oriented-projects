@@ -39,3 +39,9 @@ Compilation of Project Code for Object-Oriented Programming (C++)
 - studentsample1.txt
 - studentsample2.txt
 - makefile
+
+## (3) List Class - Template Linked List (Looking Ahead to Data Structures)
+### (class) List expands on a templated linked list class studied in this course. Additional functions were implemented and tested: insertMiddle, removeMiddle, copy constructor, and assignment operator. A test program is also provided.
+- listnode.h
+- list.h
+- test.cpp
