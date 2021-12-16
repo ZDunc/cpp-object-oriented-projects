@@ -29,7 +29,7 @@ Compilation of Project Code for Object-Oriented Programming (C++)
 - myint.h
 - myint.cpp
 
-## (5) Student & StudentList Classes - Base and derived classes, virtual functions, applications of polymorphism; further practice with file I/O, as well as dynamic allocation
+## (6) Student & StudentList Classes - Base and derived classes, virtual functions, applications of polymorphism; further practice with file I/O, as well as dynamic allocation
 ### (class) Student stores student grade information in a base class and three derived classes simulating different school majors. Data is private or protected, and data access must happen through public member functions. (class) StudentList then stores a list of pointers to Student objects using a dynamically-managed array. Main.cpp creates a single StudentList object and then implements a menu interface to allow interaction with the objects. Sample txt files are included.
 - student.h
 - studentlist.h
