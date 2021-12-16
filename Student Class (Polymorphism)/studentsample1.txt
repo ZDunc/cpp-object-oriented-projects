@@ -1,0 +1,9 @@
+4
+Squarepants, Spongebob
+Computer Science 90 82 85 96 100 88 85 91 97
+Finklebottom, Joe
+Biology 85 90 78 85 89
+Dipwart, Marvin
+Theater 85 72 95
+van Houten, Milhouse
+Computer Science 45 80 76 79 54 72 73 81 79
